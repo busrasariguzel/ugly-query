@@ -19,7 +19,9 @@ list2.style.fontSize = '180px'
 list2.style.background = 'url("https://media2.giphy.com/media/bHcsCSj2EAzn2/200.webp?cid=790b761164f8c664ff5fd006110bfe8c6cef593fcd20ec3c&rid=200.webp")';
 
 const newH3 = document.querySelector('h3');
-newH3.style.color = 'yellow'
+newH3.style.color = 'navy'
+newH3.style.textAlign = "center";
+newH3.style.fontSize = '55px'
 
 const newButton = document.querySelector('button');
 newButton.style.color = 'pink';
@@ -28,9 +30,30 @@ newButton.style.backgroundSize= 'cover'
 
 
 const allBackground = document.querySelector('body');
-allBackground.style.backgroundImage= 'url(" ")'
+allBackground.style.backgroundImage= 'url("https://media2.giphy.com/media/2TP6yaW6zVxq8/giphy.webp?cid=790b7611194bc161696c31c568a166465748c29c4f1a6365&rid=giphy.webp")';
 
+const p1 = document.querySelector('#paragraph1');
+p1.style.color = 'red';
+p1.style.fontSize = '30px';
 
+const p2 = document.querySelector('#paragraph2');
+p2.style.color = 'navy';
+p2.style.fontSize= '45px';
+
+const p3 = document.querySelector('#paragraph3');
+p3.style.color = 'orange';
+
+const firstH3 = document.querySelector('#firstH3');
+firstH3.style.color = 'brown';
+firstH3.style.fontSize = '50px';
+firstH3.style.textAlign = "center";
+
+const secondH3 = document.querySelector('#secondH3');
+secondH3.style.color = 'darkRed';
+secondH3.style.fontSize = '50px';
+secondH3.style.textAlign = "right";
+
+// put hashtag id inside the paranthesis
 
 // const newH3 = document.querySelector('h3');
 // newH3.style.color = 'yellow'
