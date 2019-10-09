@@ -3,6 +3,7 @@ newTitle.style.color ='red';
 newTitle.style.fontSize ='300px';
 newTitle.style.background ='url("https://media.giphy.com/media/A0AuKCjz5w9pu/giphy.gif")';
 newTitle.style.backgroundSize = 'cover';
+newTitle.style.fontStyle = "italic";
 
 const list = document.querySelector('ol');
 list.style.color = 'blue';
@@ -49,27 +50,7 @@ firstH3.style.fontSize = '50px';
 firstH3.style.textAlign = "center";
 
 const secondH3 = document.querySelector('#secondH3');
-secondH3.style.color = 'darkRed';
+secondH3.style.color = 'white';
 secondH3.style.fontSize = '50px';
 secondH3.style.textAlign = "right";
-
-// put hashtag id inside the paranthesis
-
-// const newH3 = document.querySelector('h3');
-// newH3.style.color = 'yellow'
-
-
-// const newInput = document.querySelector('input');
-// newInput.style.color = 'pink';
-
-// const paragraph = document.querySelector('p');
-// paragraph.style.color = 'lightBlue';
-// const heading = document.querySelector('h1');
-// heading.style.fontSize = '10px';
-
-
-// const dinoUrl = put url here
-// const list = document.querySelector('ul')
-// list.style.background = 'url(' + dinoUrl')'
-// list.style.backgroundSize = 'cover'
-// https://giphy.com/gifs/A0AuKCjz5w9pu
+secondH3.style.fontStyle = "italic";
