@@ -4,30 +4,40 @@ newTitle.style.fontSize ='300px';
 newTitle.style.background ='url("https://media.giphy.com/media/A0AuKCjz5w9pu/giphy.gif")';
 newTitle.style.backgroundSize = 'cover';
 newTitle.style.fontStyle = "italic";
+newTitle.style.opacity = "0.5";
+newTitle.style.textShadow = "8px 8px 6px #F79D5C";
+newTitle.style.fontFamily = "Impact,Charcoal,sans-serif"
+
+
 
 const list = document.querySelector('ol');
 list.style.color = 'blue';
 list.style.background = 'url("https://media.giphy.com/media/EIQ6VYIa9DM8U/giphy.gif")';
 
+
 const newText = document.querySelector('textarea');
 newText.style.color = 'pink';
 newText.style.background= 'url("https://media0.giphy.com/media/kMV3yI5LySQdW/giphy.gif?cid=790b7611ba1d8075672e8eedf41b0261cbcb4da257c7b536&rid=giphy.gif")';
 newText.style.backgroundSize= 'cover'
+newText.style.height = '400px';
 
 const list2 = document.querySelector('ul');
 list2.style.color = 'green';
-list2.style.fontSize = '180px'
+list2.style.fontSize = '200px'
 list2.style.background = 'url("https://media2.giphy.com/media/bHcsCSj2EAzn2/200.webp?cid=790b761164f8c664ff5fd006110bfe8c6cef593fcd20ec3c&rid=200.webp")';
 
 const newH3 = document.querySelector('h3');
 newH3.style.color = 'navy'
 newH3.style.textAlign = "center";
-newH3.style.fontSize = '55px'
+newH3.style.fontSize = '55px';
+newH3.style.textShadow = "8px 8px 6px #F79D5C";
 
 const newButton = document.querySelector('button');
 newButton.style.color = 'pink';
 newButton.style.background= 'url("https://media0.giphy.com/media/kMV3yI5LySQdW/giphy.gif?cid=790b7611ba1d8075672e8eedf41b0261cbcb4da257c7b536&rid=giphy.gif")';
 newButton.style.backgroundSize= 'cover'
+newButton.style.height = '100px';
+newButton.style.width = '100px';
 
 
 const allBackground = document.querySelector('body');
@@ -48,9 +58,12 @@ const firstH3 = document.querySelector('#firstH3');
 firstH3.style.color = 'brown';
 firstH3.style.fontSize = '50px';
 firstH3.style.textAlign = "center";
+firstH3.style.textShadow = "8px 8px 6px #F79D5C";
 
 const secondH3 = document.querySelector('#secondH3');
 secondH3.style.color = 'white';
 secondH3.style.fontSize = '50px';
 secondH3.style.textAlign = "right";
 secondH3.style.fontStyle = "italic";
+secondH3.style.textShadow = "8px 8px 6px #F79D5C";
+secondH3.style.fontFamily = "Impact,Charcoal,sans-serif";
